@@ -1,0 +1,185 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e76a161bce4efa4f58b09aad9c760102",
+    "packages": [
+        {
+            "name": "carloswph/linguistics",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carloswph/linguistics.git",
+                "reference": "0f7525697146fc92a3022021d6894fa2578e69f8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carloswph/linguistics/zipball/0f7525697146fc92a3022021d6894fa2578e69f8",
+                "reference": "0f7525697146fc92a3022021d6894fa2578e69f8",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Linguistics\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "carlos",
+                    "email": "geral@meuppt.pt",
+                    "homepage": "https://wp-helpers.com"
+                }
+            ],
+            "description": "Linguistics and language tools in PHP.",
+            "keywords": [
+                "Algorithm",
+                "Phonetics",
+                "english grammar",
+                "ipa",
+                "language",
+                "metaphone",
+                "nysiis",
+                "soundex"
+            ],
+            "support": {
+                "issues": "https://github.com/carloswph/linguistics/issues",
+                "source": "https://github.com/carloswph/linguistics/tree/main"
+            },
+            "time": "2021-03-22T18:56:49+00:00"
+        },
+        {
+            "name": "carloswph/tonton",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/carloswph/tonton.git",
+                "reference": "16ddff8be920a8f63befe3577b28229ff4903a37"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/carloswph/tonton/zipball/16ddff8be920a8f63befe3577b28229ff4903a37",
+                "reference": "16ddff8be920a8f63befe3577b28229ff4903a37",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TonTon\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "WP Helpers",
+                    "email": "carlos@wp-helpers.com",
+                    "homepage": "https://wp-helpers.com"
+                }
+            ],
+            "description": "Serie of tools based on traits that simplify the use of singletons, multitons and other class instances controllers.",
+            "keywords": [
+                "design patterns",
+                "multiton",
+                "singleton",
+                "singleton pattern",
+                "singletons"
+            ],
+            "support": {
+                "issues": "https://github.com/carloswph/tonton/issues",
+                "source": "https://github.com/carloswph/tonton/tree/v1.2.0"
+            },
+            "time": "2021-03-23T19:34:05+00:00"
+        },
+        {
+            "name": "symfony/class-loader",
+            "version": "3.4.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/class-loader.git",
+                "reference": "a22265a9f3511c0212bf79f54910ca5a77c0e92c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/class-loader/zipball/a22265a9f3511c0212bf79f54910ca5a77c0e92c",
+                "reference": "a22265a9f3511c0212bf79f54910ca5a77c0e92c",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5.9|>=7.0.8"
+            },
+            "require-dev": {
+                "symfony/finder": "~2.8|~3.0|~4.0",
+                "symfony/polyfill-apcu": "~1.1"
+            },
+            "suggest": {
+                "symfony/polyfill-apcu": "For using ApcClassLoader on HHVM"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Component\\ClassLoader\\": ""
+                },
+                "exclude-from-classmap": [
+                    "/Tests/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony ClassLoader Component",
+            "homepage": "https://symfony.com",
+            "support": {
+                "source": "https://github.com/symfony/class-loader/tree/3.4"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-10-24T10:57:07+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "symfony/class-loader": 20,
+        "carloswph/linguistics": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}

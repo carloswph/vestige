@@ -1,0 +1,23 @@
+{
+    "name": "carloswph/vestige",
+    "description": "Calling method BEFORE instantiating the class, and save returning values AFTER an object is destroyed.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carlos",
+            "email": "geral@meuppt.pt"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Vestige\\": "src/"
+        }
+    },
+    "require": {
+        "carloswph/tonton": "*",
+        "symfony/class-loader": "3.4.x-dev",
+        "carloswph/linguistics": "dev-main"
+    }
+}
