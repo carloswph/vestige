@@ -21,13 +21,18 @@ class Memory
     	}
 
     	$this->objects = $objects;
+
+         $this->hook();
     }
 
     public function push(array $objects)
     {
+
         foreach ($objects as $key => $object) {
             $this->objects[$key] = $object;
         }
+
+         $this->hook();
     }
 
     public function register(string $name)
@@ -60,6 +65,7 @@ class Memory
                 'method' => $method,
                 'parameters' => $args
             );
+
     }
 
     public function drop(string $instance)

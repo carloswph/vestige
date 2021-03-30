@@ -15,9 +15,5 @@
             "Vestige\\": "src/"
         }
     },
-    "require": {
-        "carloswph/tonton": "*",
-        "symfony/class-loader": "3.4.x-dev",
-        "carloswph/linguistics": "dev-main"
-    }
+    "require": {}
 }
